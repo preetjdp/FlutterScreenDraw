@@ -4,7 +4,9 @@ This is a simple Demo that uses custom painter and Gesture Detector in Flutter t
 
 # Demo
 
-![demo](demo/screenDrawDemo.gif)
+[Click here to download the APK](https://github.com/preetjdp/FlutterScreenDraw/raw/master/demo/app-release.apk)
+
+![demo](demo/screenDrawDemo.gif | width=100)
 
 #Config
 
