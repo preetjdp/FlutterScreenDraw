@@ -6,11 +6,11 @@ This is a simple Demo that uses custom painter and Gesture Detector in Flutter t
 
 [Click here to download the APK](https://github.com/preetjdp/FlutterScreenDraw/raw/master/demo/app-release.apk)
 
-![demo](demo/screenDrawDemo.gif | width=100)
+<img src="https://github.com/preetjdp/FlutterScreenDraw/blob/master/demo/screenDrawDemo.gif" alt="DEMO GIF" width="100">
 
-#Config
+# Config
 
-To Change the Color of size of the stroke , etc., just edit the main.dart file
+To Change the Color, size of the stroke just edit the main.dart file
 
 ```sh
 Paint paint = Paint()
@@ -18,3 +18,11 @@ Paint paint = Paint()
       ..strokeCap = StrokeCap.round
       ..strokeWidth = 5.0;
 ```
+
+License
+----
+
+MIT
+
+
+**Free Software, Hell Yeah!**
