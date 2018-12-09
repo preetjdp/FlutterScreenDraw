@@ -33,7 +33,7 @@ class _HomePageState extends State<HomePage> {
           },
           onPanEnd: (DragEndDetails details) => _points.add(null),
           child: CustomPaint(
-            painter: Signature(points: _points),
+            painter: ScreenDraw(points: _points),
             size: Size.infinite,
           ),
         ),
@@ -48,10 +48,10 @@ class _HomePageState extends State<HomePage> {
   }
 }
 
-class Signature extends CustomPainter {
+class ScreenDraw extends CustomPainter {
   List<Offset> points;
 
-  Signature({this.points});
+  ScreenDraw({this.points});
 
   @override
   void paint(Canvas canvas, Size size) {
@@ -68,7 +68,7 @@ class Signature extends CustomPainter {
   }
 
   @override
-  bool shouldRepaint(Signature oldDelegate) {
+  bool shouldRepaint(ScreenDraw oldDelegate) {
     return oldDelegate.points != points;
   }
 }

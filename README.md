@@ -1,16 +1,18 @@
-# drawable_screen
+# Flutter Drawable Screen
 
-A new Flutter project.
+This is a simple Demo that uses custom painter and Gesture Detector in Flutter to Doodle.
 
-## Getting Started
+# Demo
 
-This project is a starting point for a Flutter application.
+![demo](demo/screenDrawDemo.gif)
 
-A few resources to get you started if this is your first Flutter project:
+#Config
 
-- [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.io/docs/cookbook)
+To Change the Color of size of the stroke , etc., just edit the main.dart file
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+```sh
+Paint paint = Paint()
+      ..color = Colors.black
+      ..strokeCap = StrokeCap.round
+      ..strokeWidth = 5.0;
+```
